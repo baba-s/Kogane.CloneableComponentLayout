@@ -32,6 +32,11 @@ namespace Kogane
         /// </summary>
         protected IReadOnlyList<TComponent> Elements => m_componentList;
 
+        /// <summary>
+        /// 複製したコンポーネントの数を返します
+        /// </summary>
+        protected int Count => m_componentList.Count;
+
         //================================================================================
         // 関数
         //================================================================================
