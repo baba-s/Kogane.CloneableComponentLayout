@@ -13,9 +13,9 @@ namespace Kogane
     public abstract class CloneableComponentLayoutCoreBase<TComponent, TData> : MonoBehaviour
         where TComponent : Component
     {
-        //==============================================================================
+        //================================================================================
         // 変数(SerializeField)
-        //==============================================================================
+        //================================================================================
         [SerializeField][NotNull] private TComponent m_source; // 複製元のコンポーネント
         [SerializeField][NotNull] private Transform  m_parent; // 複製したコンポーネントの親
 
